@@ -8,18 +8,18 @@
 </head>
 <body>
     <h1>Forms</h1>
-    <form>
-       Name <input type="text" placeholder ="name"><br><br>
-       Email Address <input type="email" placeholder ="email"><br><br>
-       Password <input type="password" placeholder ="password"><br></br>
+    <form action="http://127.0.0.1:5500/code/sub2.html">
+       Name <input type="text" placeholder ="name" name="name"><br><br>
+       Email Address <input type="email" placeholder ="email" name="Email"><br><br>
+       Password <input type="password" placeholder ="password" name="Password"><br></br>
        <h2>Language</h2><br>
        <input name = "Lan"type="radio">React<br>
        <input name = "Lan" type="radio">Vue<br>
        <input name = "Lan" type="radio">Angular<br>
        <h2>Courses</h2>
-       <input type="checkbox">Java<br>
-       <input type="checkbox">Js<br>
-       <input type="checkbox">MERN<br>
+       <input name="Java" type="checkbox">Java<br>
+       <input name="Js" type="checkbox">Js<br>
+       <input name="MERN" type="checkbox">MERN<br>
        <h2>Field</h2>
        <select name="Language"id="">
            <option value ="">Frontend</option>
@@ -30,7 +30,7 @@
        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
        <br><br>
        <label for="phonenumber">PhoneNumber:</label>
-       <input type="Phonenumber">
+       <input name="phonenumber" type="Phonenumber">
        <input type="submit">
        <br><br>
 
