@@ -1,0 +1,10 @@
+div{
+    border-top:300px solid gold;
+    border-right: 300px solid goldenrod;
+    border-bottom: 300px solid greenyellow;
+    border-left: 300px solid green;
+    width:0px;
+    height:0px;
+    border-radius: 100%;
+    
+}
