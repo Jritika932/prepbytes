@@ -92,7 +92,7 @@ body{
     border: 8px solid purple;
     text-align: center;
     width: 800px;
-    height: 86vh;
+    height: 88vh;
     margin-inline: auto;    
 }
 .fruits
@@ -129,7 +129,7 @@ body{
 .middle{
     border: 8px solid red;
     width:400px;
-    height:70px;
+    height:105px;
     font-style: italic;
     bottom: 120px;
     left: 33%;
