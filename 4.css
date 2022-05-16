@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    padding: 0px;
+     }
+.top{
+    width:100;
+    height:35px;
+    border: 0px solid;
+    background-image: linear-gradient(
+        to right ,
+        red ,
+        green ,
+        yellow 
+    
+    );
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+}
+.list{
+    color:black;
+    background-color: lightblue;
+    border: 5px solid red;
+    border-radius: 15px;
+    width:800px;
+    height:80px;
+    text-align: center;
+    margin-left:200px;
+    
+}
+.box1{
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius:30px;
+    height: 172px;
+    display:grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+.p1{
+    color:black;
+    background-color: aqua;
+    border: 3px solid green;
+    border-radius: 10px;
+    width: 390px;
+    height: 80px;
+    text-align: center;
+}
+.p2{
+    color:black;
+    background-color: aqua;
+    border: 3px solid green;
+    border-radius: 10px;
+    width: 390px;
+    height:80px;
+    text-align: center;
+    margin-left: 30px;
+
+
+}
+.p3{
+    color:black;
+    background-color: aqua;
+    border: 3px solid green;
+    border-radius: 10px;
+    width: 390px;
+    height: 80px;
+    text-align: center;
+    margin-left: 60px;
+    
+
+    
+
+
+}
+.p4{
+    color:black;
+    background-color: aqua;
+    border: 3px solid green;
+    border-radius: 10px;
+    width: 390px;
+    height: 80px;
+    text-align: center;
+    margin-left: 440px;
+    
+}
+.middle{
+    width:100;
+    height:35px;
+    border: 0px solid;
+    background-image: linear-gradient(
+        to right ,
+        red ,
+        orange ,
+        yellow ,
+        orange ,
+        red
+      );
+    text-decoration: underline;
+    
+    color: black;
+    text-align: center;
+
+}
+.box2{
+    width:100%;
+    height:300px;
+    border: 2px solid darkgreen;
+    background-image: linear-gradient(
+        to bottom ,
+        green ,
+        blue ,
+        green
+    );
+     display:flex;
+     justify-content: space-evenly;
+    
+}
+.b1{
+    background-color: yellow;
+    color: red;
+    border: 3px solid red;
+    width:200px;
+    height:100px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 15px;
+    margin-top: 100px;
+
+
+}
+.b2{
+    background-color: yellow;
+    color: red;
+    border: 3px solid red;
+    width:200px;
+    height:100px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 15px;
+    margin-top: 100px;
+
+}
+.b3{
+    background-color: yellow;
+    color: red;
+    border: 3px solid red;
+    width:200px;
+    height:100px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+.b4{
+    background-color: yellow;
+    color: red;
+    border: 3px solid red;
+    width:200px;
+    height:100px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 15px;
+    margin-top: 100px;
+
+}
+.border{
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 405px 405px 405px 100px;
+    grid-template-rows: 50px 80px 120px 40px;
+    gap: 10px 10px;
+    
+    
+}
+.grid-item{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.bottom
+{
+   background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 5;
+
+}
+.green{
+    background-color: darkgreen;
+
+}
+.blue{
+    text-align: left;
+    background-color: blue;
+
+}
+.purple{
+    text-align: left;
+    background-color: purple;
+    
+
+}
+.orange{
+    
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgb(223, 166, 45);
+  text-align: left;
+
+    
+}
+.black{
+ grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  text-align: left;
+  background-color: gray;
+  font-size: 15px;
+  padding-left: 0px;
+}
+
+.lightblue{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: black;
+    font-weight: bold;
+}
